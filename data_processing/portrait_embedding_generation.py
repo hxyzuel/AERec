@@ -7,7 +7,7 @@ import os
 class voyage(object):
     def __init__(self):
         super().__init__()
-        self.client = voyageai.Client(api_key='pa-kBWbOY4nizezYC9Gh-ysmLZOqjc-JY3NsH7cdYWfmNY')
+        self.client = voyageai.Client(api_key='')
 
     def get_embedding(self, text, model):
         # model:voyage-large-2-instruct,voyage-large-2,voyage-2
